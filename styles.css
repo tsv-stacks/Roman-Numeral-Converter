@@ -19,6 +19,18 @@ h4 {
 img {
     width: 30vw;
     border-radius: 5px;
+    border: 1px solid black;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input[type='number']{
+    width: 120px;
 }
 
 .container {
@@ -29,6 +41,10 @@ img {
 .item {
     justify-content: center;
     text-align: center;
+}
+
+:invalid {
+    border-color: red
 }
 
 /* FOOTER */

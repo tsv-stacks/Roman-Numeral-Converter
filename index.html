@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="script.js" defer></script>
     <title>Roman Numeral Converter</title>
   </head>
   <body>
@@ -17,8 +18,12 @@
       <h1>Roman Numeral Converter</h1>
       <h3>Enter a number and see what it would be in Roman Numerals!</h3>
 
-      <h3><span id="roman-num"></span></h3>
-      <input type="number" id="number-input" />
+      <div class="input-container">
+        <input type="number" id="number-input" min="1" max="10000" />
+
+        <button id="btn">CONVERT!</button>
+      </div>
+      <h3>0<span id="roman-num"></span></h3>
     </main>
     <section id="other-projects">
       <h4>My Other Projects:</h4>
