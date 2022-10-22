@@ -1,9 +1,14 @@
 /* font-family: 'Eczar', serif;
-font-family: 'Goblin One', cursive; */
+font-family: 'Goblin One', cursive;
+--pacific-blue: #46b1c9ff;
+--middle-blue: #84c0c6ff;
+--opal: #9fb7b9ff;
+--ash-gray: #bcc1baff;
+--almond: #f2e2d2ff; */
 
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html {
