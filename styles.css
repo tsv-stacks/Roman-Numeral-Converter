@@ -8,7 +8,7 @@ font-family: 'Goblin One', cursive;
 
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -208,11 +208,13 @@ input[type="number"] {
 .container {
   display: flex;
   justify-content: space-evenly;
+  border: 1px solid #f2e2d2ff;
 }
 
 .item {
   justify-content: center;
   text-align: center;
+  border: 1px solid #f2e2d2ff;
 }
 
 :invalid {
