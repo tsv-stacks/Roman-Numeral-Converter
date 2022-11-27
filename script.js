@@ -15,8 +15,8 @@ btn.addEventListener("click", () => conversionCheck())
 
 function conversionCheck() {
     let num = parseInt(numberInput.value)
-    if (num < 1 || num > 10000 || "") {
-        alert("Please enter a number between 1 and 10000!")
+    if (num < 1 || num > 4000 || "") {
+        alert("The largest number that can be represented in Standard Roman numerals is 3999. \nPlease enter a number between 1 and 3999!")
         numberInput.value = ""
     } else {
         let result = convertToRoman(num)
